@@ -10,7 +10,7 @@ module.exports = {
 		//await interaction.reply({ content:'Pong!', ephemeral: true });
         Gamedig.query({
             type: 'garrysmod',
-            host: 'devlive.myddns.me',
+            host: '*',
             port: '27015',
           })
             .then((updatedState) => {
